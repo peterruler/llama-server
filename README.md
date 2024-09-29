@@ -21,6 +21,7 @@
 - `pip install --upgrade --quiet  mlx-lm transformers huggingface_hub`
 - `pip install mlx==0.17.3`
 - `pip install mlx-lm==0.18.2`
+- `pip install transformers==4.44.2`
 - `pip install langchain-community==0.0.34`
 - `pip install langchain-core==0.1.46`
 - `pip install langchain-text-splitters==0.0.1`
