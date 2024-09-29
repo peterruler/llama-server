@@ -1,11 +1,11 @@
 # Llama LLM webservice
  - download and install miniconda from website: https://docs.anaconda.com/miniconda/
 
-# install pip dependencies
+# install torch environment
 - `conda create -y --name torch python=3.11.8`
 - `conda activate torch`
 
-# build
+# install pip dependencies
 - `pip install -r requirements.txt`
 -  in shell download the model initially: `python install.py`
 
