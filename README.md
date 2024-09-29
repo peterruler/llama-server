@@ -1,4 +1,4 @@
-# Llama LLM webservice
+# Llama LLM webapp
  - download and install miniconda from website: https://docs.anaconda.com/miniconda/
 
 # install torch environment
