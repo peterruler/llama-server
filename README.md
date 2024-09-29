@@ -15,12 +15,14 @@
 
 # install manually (optional)
 - `conda install pytorch torchvision torchaudio -c pytorch-nightly`
-- `pip install Flask Flask-WTF`
+- `pip install Flask==2.0.3`
+- `pip install Flask-WTF==0.15.1`
 - `pip install Werkzeug==2.0.3`
-- `pip install "sympy==1.13.3,<1.13.1"`
 - `pip install --upgrade --quiet  mlx-lm transformers huggingface_hub`
 - `pip install mlx==0.17.3`
 - `pip install mlx-lm==0.18.2`
 - `pip install langchain-community==0.0.34`
 - `pip install langchain-core==0.1.46`
 - `pip install langchain-text-splitters==0.0.1`
+
+- (optional: `pip install "sympy==1.13.3,<1.13.1"`)
