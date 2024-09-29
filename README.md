@@ -18,7 +18,7 @@
 - `pip install Flask==2.0.3`
 - `pip install Flask-WTF==0.15.1`
 - `pip install Werkzeug==2.0.3`
-- `pip install --upgrade --quiet  mlx-lm transformers huggingface_hub`
+- `pip install --upgrade --quiet  huggingface_hub`
 - `pip install mlx==0.17.3`
 - `pip install mlx-lm==0.18.2`
 - `pip install transformers==4.44.2`
