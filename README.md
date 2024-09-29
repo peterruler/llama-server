@@ -5,7 +5,7 @@
 - `conda create -y --name torch python=3.11.8`
 - `conda activate torch`
 
-# install pip dependencies
+# install pip dependencies (on M1 Mac)
 - `pip install -r requirements.txt`
 -  in shell download the model initially: `python install.py`
 
