@@ -1,4 +1,5 @@
 # Llama LLM webservice
+ - download and install miniconda from website: https://docs.anaconda.com/miniconda/
 
 # install pip dependencies
 - `conda create -y --name torch python=3.11.8`
@@ -6,8 +7,11 @@
 
 # build
 - `pip install -r requirements.txt`
--  in shell: `python install.py`
+-  in shell download the model initially: `python install.py`
 
+# run server
+- `conda activate torch`
+- `python app.py`
 
 # install manually (optional)
 - `conda install pytorch torchvision torchaudio -c pytorch-nightly`
@@ -17,7 +21,3 @@
 - `pip install mlx-lm`
 - `pip install --upgrade --quiet  mlx-lm transformers huggingface_hub`
 - `pip install langchain_community`
-
-# run server
-- `conda activate torch`
-- `python app.py`
