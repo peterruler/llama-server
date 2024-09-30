@@ -35,5 +35,6 @@
 
 # save dependencies, already saved
 - `pip freeze > requirements.txt `
+
 # further read
 - https://python.langchain.com/v0.2/docs/integrations/llms/mlx_pipelines/
