@@ -21,7 +21,7 @@ def return_prediction(sample_json):
 
     chain = prompt | pipe
 
-    predict = chain.invoke({"question": req1})
+    predict = chain.invoke({"question":req1}).lstrip()
     
     return predict
 
