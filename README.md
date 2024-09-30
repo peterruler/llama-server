@@ -36,6 +36,9 @@
 # save dependencies, already saved
 - `pip freeze > requirements.txt `
 
+# languages
+- german is also supported
+
 # further read
 - https://python.langchain.com/v0.2/docs/integrations/llms/mlx_pipelines/
 
