@@ -11,13 +11,6 @@ def return_prediction(sample_json):
     
     req1 = sample_json['req1']
 
-    # https://python.langchain.com/v0.2/docs/integrations/llms/mlx_pipelines/
-    '''
-    pipe = MLXPipeline.from_model_id(
-        "mlx-community/Llama-3.1-SuperNova-Lite-4bit",
-        pipeline_kwargs={"max_tokens": 10, "temp": 0.1},
-    )
-    '''
     model, tokenizer = load("mlx-community/Llama-3.1-SuperNova-Lite-4bit")
     pipe = MLXPipeline(model=model, tokenizer=tokenizer)
 
