@@ -38,3 +38,7 @@
 
 # further read
 - https://python.langchain.com/v0.2/docs/integrations/llms/mlx_pipelines/
+
+# screens
+![question](/question.png?raw=true "question")
+![answer](/answer.png?raw=true "answer")
